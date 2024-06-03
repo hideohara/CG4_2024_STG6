@@ -245,6 +245,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 498509381}
   animator: {fileID: 498509377}
+  bullet: {fileID: 4476607255887359481, guid: e9e7e38297705f043b9e0932fa7c41a8, type: 3}
 --- !u!136 &498509380
 CapsuleCollider:
   m_ObjectHideFlags: 0
