@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameManagerScript : MonoBehaviour
 {
     public GameObject enemy;
+    public GameObject gameOverText;
 
     // Start is called before the first frame update
     void Start()
@@ -26,5 +27,12 @@ public class GameManagerScript : MonoBehaviour
             Instantiate(enemy, new Vector3(x, 0, 15), Quaternion.identity);
         }
     }
+
+    // ゲームオーバー開始
+    public void GameOverStart()
+    {
+        gameOverText.SetActive(true);
+    }
+
 
 }
